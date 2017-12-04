@@ -4,23 +4,15 @@
 module.exports = function (grunt)
 {
 	"use strict";
-	require('jit-grunt')(grunt);
-	require('time-grunt')(grunt);
 
-	grunt.initConfig(
-		{
-			davanmonet:
-			{
-				options:
-				{
-					"config": "./configs/projectoptions.yml"
-				}
-			}
-		});
+
 	grunt.loadNpmTasks("davanmonet");
 
-	grunt.registerTask("createindexes", ["davanmonet:createindexes"]);
-	grunt.registerTask("build", ["davanmonet:build"]);
+	grunt.registerTask("build-pl", ["davanmonet:build-pl"]);
+	grunt.registerTask("build-dvm", ["davanmonet:build-dvm"]);
+	grunt.registerTask("build-all", ["davanmonet:build-all"]);
+	grunt.registerTask("build", ["davanmonet:build-all"]);
 	grunt.registerTask("dev", ["davanmonet:dev"]);
+	grunt.registerTask("dev-pl", ["davanmonet:dev-pl"]);
 	grunt.registerTask("default", ["davanmonet:dev"]);
 };

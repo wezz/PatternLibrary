@@ -1,11 +1,31 @@
 {
 	"name": "patternlibraryexample",
 	"description": "pattern library project using DaVanMonet",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"license": "UNLICENSED",
 	"private": true,
+	"scripts": {
+		"dev": "node node_modules/davanmonet/dvm-build/dev-server.js",
+		"build-dvm": "node node_modules/davanmonet/dvm-build/build-dvm.js",
+		"build-pl": "node node_modules/davanmonet/dvm-build/build-patternlibrary.js",
+		"build-all": "npm run build-dvm && npm run build-pl",
+		"dev-debug": "node --inspect ../DaVanMonet/dvm-build/dev-server.js"
+	},
+	"devDependencies": {
+		"davanmonet": "^1.1.0",
+		"grunt": "1.0.1",
+		"grunt-run": "^0.8.0"
+	},
+	"config": {
+		"configFile": "./configs/projectoptions.yml",
+		"webpackConfig": "./configs/webpack.conf.js"
+	},
+	"babel": {
+		"presets": [
+			"stage-2"
+		]
+	},
 	"dependencies": {
-		"davanmonet": "^1.0.4",
-		"grunt": "^1.0.1"
+		"include-media": "^1.4.9"
 	}
 }
