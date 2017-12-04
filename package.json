@@ -14,7 +14,10 @@
 	"devDependencies": {
 		"davanmonet": "^1.1.0",
 		"grunt": "1.0.1",
-		"grunt-run": "^0.8.0"
+		"grunt-run": "^0.8.0",
+		"stylelint": "^8.3.1",
+		"stylelint-config-standard": "^18.0.0",
+		"stylelint-webpack-plugin": "^0.9.0"
 	},
 	"config": {
 		"configFile": "./configs/projectoptions.yml",

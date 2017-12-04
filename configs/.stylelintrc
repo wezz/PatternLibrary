@@ -1,0 +1,15 @@
+{
+	"rules":
+	{
+		"max-empty-lines": 4,
+		"string-quotes": "double",
+		"function-url-quotes": "always",
+		"color-hex-length": "long",
+		"color-hex-case":"upper",
+		"indentation":"tab",
+		"declaration-colon-newline-after": null,
+		"block-opening-brace-newline-before":"always",
+		"value-list-comma-newline-after": null,
+		"max-nesting-depth": 2
+	}
+}
