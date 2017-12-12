@@ -5,8 +5,8 @@
 #-------------------------------------------------------------------------------
 project_info:
   name: Pattern Library Example
-  logo: "/static/logo.svg"
-  theme_style: default
+  logo: "/src/theme/logo.svg"
+  theme_style: "/src/theme/theme-example.css"
 
 
 #-------------------------------------------------------------------------------
@@ -121,7 +121,7 @@ assets:
 # Environment settings
 #-------------------------------------------------------------------------------
 env:
-  devSitePort: 9001
+  devSitePort: 9002
   launchBrowser: false
   enableOnSitePreview: true
   cssBreakpoints:

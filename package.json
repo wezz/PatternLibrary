@@ -1,7 +1,7 @@
 {
 	"name": "patternlibraryexample",
 	"description": "pattern library project using DaVanMonet",
-	"version": "1.1.0",
+	"version": "1.1.2",
 	"license": "UNLICENSED",
 	"private": true,
 	"scripts": {
@@ -12,7 +12,7 @@
 		"dev-debug": "node --inspect ../DaVanMonet/dvm-build/dev-server.js"
 	},
 	"devDependencies": {
-		"davanmonet": "^1.1.0",
+		"davanmonet": "git://github.com/wezz/DaVanMonet.git#1.1.4-wip",
 		"grunt": "1.0.1",
 		"grunt-run": "^0.8.0",
 		"stylelint": "^8.3.1",
