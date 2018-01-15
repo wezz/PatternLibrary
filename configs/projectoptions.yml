@@ -7,7 +7,7 @@ project_info:
   name: Pattern Library Example
   logo: "/src/theme/logo.svg"
   theme_style: "/src/theme/theme-example.css"
-
+  repourl: "https://github.com/wezz/PatternLibraryExample"
 
 #-------------------------------------------------------------------------------
 # Path settings
@@ -23,10 +23,10 @@ directories:
   dist_package: "dist/package"
   
   # JS output dir. Relative to dist_web
-  js_subDir: "/static/js"
+  js_subDir: "static/js"
 
   # CSS Output dir. Relative to dist_web
-  css_subDir: "/static/css"
+  css_subDir: "static/css"
   
   # Index files will be created here
   indexes: "dist/indexes"
@@ -149,22 +149,22 @@ build:
   package:
     files:
     - src: "./package.json"
-    - src: "./build/version.json"
-      dest: "./"
     - src: "./configs/.npmrc"
-      dest: "./"
+      dest: "./.npmrc"
     - src: "./configs/package.nuspec"
-      dest: "./"
+      dest: "./package.nuspec"
   web:
     files:
     - src: "./configs/.htaccess"
-      dest: "./"
+      dest: "./.htaccess"
     - src: "./configs/Web.config"
-      dest: "./"
+      dest: "./Web.config"
 
 structure:
 - title: Components
   path: components
+- title: Documentation
+  path: documentation
   
 onsitepreview:
   components: []
