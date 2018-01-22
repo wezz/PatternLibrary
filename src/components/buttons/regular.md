@@ -7,6 +7,7 @@ guid: 31495b40-9492-40e4-86e3-1e06bfc40171
 # Regular button
 Some developer information about the regular button
 
+
 ## Base state
 This is the button when it has no other state
 ```html

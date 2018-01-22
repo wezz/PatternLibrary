@@ -23,7 +23,7 @@ module.exports = {
 			"configFile": "./configs/.stylelintrc",
 			"context":dvmConfig.directories.src,
 			"emitErrors":true,
-			"failOnError":true,
+			"failOnError":false,
 			"quiet":false,
 			"files":['**/*.s?(a|c)ss', '**/*.less']
 		}),
