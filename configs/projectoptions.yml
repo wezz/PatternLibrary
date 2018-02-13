@@ -81,6 +81,14 @@ compilation:
     inline.css:
     - "**/*_inline.less"
     - "**/**/*_inline.less"
+    vuecomponents:
+    - "VueComponents.vue"
+    reactcomponents:
+    - "ReactComponents.jsx"
+    angularcomponents:
+    - "AngularComponents.ts"
+    modules:
+    - "modules/initiation.ts"
   
   # Create source maps for JS and CSS
   sourceMaps: true
@@ -165,6 +173,8 @@ structure:
   path: components
 - title: Documentation
   path: documentation
+- title: Modules
+  path: modules
   
 onsitepreview:
   components: []

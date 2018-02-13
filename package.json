@@ -1,7 +1,7 @@
 {
 	"name": "patternlibraryexample",
 	"description": "pattern library project using DaVanMonet",
-	"version": "1.1.6",
+	"version": "1.1.7",
 	"license": "UNLICENSED",
 	"private": true,
 	"scripts": {
@@ -13,12 +13,35 @@
 		"dev-debug": "node --inspect ../DaVanMonet/dvm-build/dev-server.js"
 	},
 	"devDependencies": {
-		"davanmonet": "^1.1.9",
+		"davanmonet": "^1.1.11",
 		"grunt": "1.0.1",
 		"grunt-run": "^0.8.0",
 		"stylelint": "^8.3.1",
 		"stylelint-config-standard": "^18.0.0",
-		"stylelint-webpack-plugin": "^0.9.0"
+		"stylelint-webpack-plugin": "^0.9.0",
+		"@types/jquery": "^3.3.0",
+		"jquery": "^3.3.1",
+		"requirejs": "^2.3.5",
+		"@types/requirejs": "^2.1.31",
+		"@angular/cli": "^1.6.8",
+		"@angular/animations": "^5.2.0",
+		"@angular/common": "^5.2.0",
+		"@angular/compiler": "^5.2.0",
+		"@angular/compiler-cli": "^5.2.0",
+		"@angular/language-service": "^5.2.0",
+		"@angular/core": "^5.2.0",
+		"@angular/forms": "^5.2.0",
+		"@angular/http": "^5.2.0",
+		"@angular/platform-browser": "^5.2.0",
+		"@angular/platform-browser-dynamic": "^5.2.0",
+		"@angular/router": "^5.2.0",
+		"angular2-template-loader": "^0.6.2",
+		"core-js": "^2.4.1",
+		"rxjs": "^5.5.6",
+		"zone.js": "^0.8.19",
+		"babel-preset-react": "^6.24.1",
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0"
 	},
 	"config": {
 		"configFile": "./configs/projectoptions.yml",
