@@ -36,7 +36,7 @@ This attribute will load in additional modules through require and run their ini
 ### data-behavior="behavior1, behavior2"
 This attribute will see if this script support any of the behaviors specified in this attribute. Is so an additional script will be loaded that will add the extra functionality
 
-
+:::componentpreview
 ## Simple toggle button
 ```html
 <div>
@@ -44,4 +44,5 @@ This attribute will see if this script support any of the behaviors specified in
 <div id="examplediv" aria-hidden="true">I'm hidden by default</div>
 </div>
 ```
+:::
 

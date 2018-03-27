@@ -10,10 +10,11 @@ Instead of showing html you choose angular as the preview language.
 
 To make the component appear in the preview you must first import and include any components in the AngularComponents.vue file
 
+:::componentpreview
 ## Base state
-This is the button when it has no other state
 ```angular
 <div class="angularcomponentcontainer">
 <angular-example-component></angular-example-component>
 </div>
 ```
+:::

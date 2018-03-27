@@ -8,6 +8,7 @@ project_info:
   logo: "/src/theme/logo.svg"
   theme_style: "/src/theme/theme-example.css"
   repourl: "https://github.com/wezz/PatternLibraryExample"
+  pagedata_schemaversion: "2.0"
 
 #-------------------------------------------------------------------------------
 # Path settings
